@@ -1,0 +1,23 @@
+<html>	
+	<head>
+		<title>Square Finder App by Kamal Sir</title>
+		<link rel="stylesheet" href="mystyle.css"/>
+	</head>
+
+	<body>
+		<center>
+			<div class="nav">
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+			</div>
+			<h3>Result Page<h3>
+			<h2 id="msg">
+						
+			<script>
+				let msg = document.getElementById("msg");
+				let res = localStorage.getItem("res");
+				msg.innerHTML = "square = " + res;
+			</script>
+		</center>
+	</body>
+</html>
